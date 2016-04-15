@@ -37,12 +37,17 @@ a{
 .signupbtn{
   border: 1.1px solid rgba(184, 186, 195, 0.3);
   border-radius: 4px;
-  text-align: left;
-  text-indent: 20%;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 15px;
   transition: all 0.5s ease;
+
+}
+.social-icon{
+  margin-left: 10%;
+}
+.social{
+  margin-left: 10%;
 
 }
 .signupbtn:hover{
