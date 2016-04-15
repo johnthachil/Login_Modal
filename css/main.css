@@ -1,0 +1,83 @@
+body{
+  background-color: #4d515e;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.modal{
+
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.wrapper{
+  margin-top: 100px;
+}
+.modal-image{
+  background-image: url(bg.jpg);
+  background-size: 170%;
+  background-position: center;
+  height: 500px;
+}
+.content-wrapper{
+  margin-top: 13%;
+  margin-bottom: 10px;
+}
+.content-wrapper p{
+  font-size: 10px;
+}
+.signupbtn{
+  border: 1.1px solid rgba(184, 186, 195, 0.3);
+  border-radius: 4px;
+  text-align: left;
+  text-indent: 20%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease;
+
+}
+.signupbtn:hover{
+  -webkit-box-shadow: 0px 8px 33px -9px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 8px 33px -9px rgba(0,0,0,0.65);
+  box-shadow: 0px 8px 33px -9px rgba(0,0,0,0.65);
+
+    transition: all 0.5s ease;
+
+}
+.signupbtn a{
+  font-size: 12px;
+  color: #4d515e;
+}
+.sperator{
+  width: 100%;
+  border-top: 1.1px solid rgba(184, 186, 195, 0.3);
+}
+.footer{
+  padding-top: 20px;
+}
+.footer p{
+  color: #777579;
+  display: inline;
+
+}
+.mailid{
+  padding-top: 8px;
+
+  font-size: 10px;
+  float: right;
+  color: #9fd85b;
+}
+@media only screen and (max-width: 600px) {
+  .modal-image{
+    display: none;
+  }
+}
